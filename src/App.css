@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+
+.App-header {
+  background-image:url('header.png');
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.p1{
+  font-size: 4rem;
+  color: #e2dbdb;
+}
+
+.p2{
+  font-size: 2rem;
+  color: #e2dbdb; 
+}
+
+.buffer{
+  height: 10rem;
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 200px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary{
+  background-color:#F05F44; 
+  border-color: #F05F44;
+}
+
+.btn-primary:hover{
+  background-color:#ee4b08; 
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.player div{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.player button {
+  color: rgb(243, 139, 114);
+  background: transparent;
+  border: none;
+  font-size: 150%;
+  outline: none;
+  
+  height:10%;
+  width:5%;
+  
+  margin-top: 5px;
+}
+
+
+.footer{
+    height: 100px; 
+    position: fixed; 
+    bottom:0;
+    left:0;
+    min-width:100%; 
+    background-color: #393838;
+    opacity: 0.95;
+   
+}
+
+.thumbnail{
+    width:100px;
+
+    height:100px;
+
+    overflow: hidden;
+
+    float:left;
+
+    margin-top: 15px;
+
+    margin-left:15px;
+        
+}
+
+.details .track{
+    font-size:90%;
+    margin-left:25px;
+    margin-top:15px;
+}
+
+.player .player-time .time_left{
+  width:60px;
+  text-align:right;
+}
+
