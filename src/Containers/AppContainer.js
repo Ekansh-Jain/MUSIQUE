@@ -10,7 +10,7 @@ class AppContainer extends React.Component{
 		this.state={
 			query: '',
 
-      		youtubekey:'AIzaSyD3LiZ6c2MFxuFXFLh40Fo5pPIJm5gZag4',
+      		youtubekey:process.env.API_KEY ,
 
       		error: null,
 
