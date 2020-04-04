@@ -46,7 +46,7 @@ class AppContainer extends React.Component{
 	}
 
 	onSearchButtonSubmit=()=>{
-
+		console.log(this.state.youtubekey);
 		this.trackSearch();
 	}
 
