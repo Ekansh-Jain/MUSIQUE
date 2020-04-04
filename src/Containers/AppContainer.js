@@ -1,7 +1,7 @@
 import React from 'react';
-import Search from './Components/Search'
-import TrackList from './Components/TrackList'
-import Player from './Components/Player'
+import Search from '../Components/Search'
+import TrackList from '../Components/TrackList'
+import Player from '../Components/Player'
 
 class AppContainer extends React.Component{
 	constructor(){
