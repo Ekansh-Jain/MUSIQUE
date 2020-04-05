@@ -2,7 +2,7 @@ import React from 'react';
 import Search from '../Components/Search'
 import TrackList from '../Components/TrackList'
 import Player from '../Components/Player'
-require('dotenv').config;
+require('dotenv').config();
 class AppContainer extends React.Component{
 	constructor(){
 		super();
