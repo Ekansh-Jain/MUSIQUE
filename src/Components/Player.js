@@ -13,7 +13,7 @@ class Player extends Component{
             rangeStyle:null,
             loaded:false,
             hovering:false,
-            volume:0.8,
+            volume:0.4,
             muted:false
         };
         this.playPause = this.playPause.bind(this);
